@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FF6900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.sex {
+    color: white;
+    margin-right: auto;
+}
+
+.profile-pic {
+    color: white;
+    margin-left: auto;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+}
+
+.sostenibilità {
+    background-color: green;
+    color: white;
+}
+
+.brand {
+
+}
+
+.product-name {
+
+}
+
+.price {
+    color: red;
+}
+
+.former-price {
+    text-decoration: line-through;
+}
+
+ul {
+    display: flex;   
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    margin-right: 10px;
+}
