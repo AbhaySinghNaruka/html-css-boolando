@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-body {
+.header-container {
     width: 1500px;
     margin: 0 auto;
+    display: flex;
 }
 
 header {
@@ -14,42 +15,6 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-}
-
-.sex {
-    color: white;
-    margin-right: auto;
-}
-
-.profile-pic {
-    color: white;
-    margin-left: auto;
-}
-
-.discount {
-    background-color: red;
-    color: white;
-}
-
-.sostenibilità {
-    background-color: green;
-    color: white;
-}
-
-.brand {
-
-}
-
-.product-name {
-
-}
-
-.price {
-    color: red;
-}
-
-.former-price {
-    text-decoration: line-through;
 }
 
 ul {
@@ -61,3 +26,110 @@ ul {
 li {
     margin-right: 10px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.sex {
+    color: white;
+    margin-right: auto;
+}
+
+.profile-pic {
+    color: white;
+    margin-left: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.product {
+    
+    /* height: 800px; */
+    background-size: contain;
+    position: relative;
+    flex-basis: 30%;
+    margin-bottom: 15px;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.second-img{
+    display: none;
+}
+
+.product:hover .first-img {
+    display: none;
+}
+
+.product:hover .second-img {
+    display: inline;
+}
+
+.product-tags {
+    display: flex;
+    position: absolute;
+    bottom: 90px;
+}
+
+.bookmark {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+.tag {
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.product-tags .tag.discount {
+    background-color: red;
+}
+
+.product-tags .tag.sostenibilità {
+    background-color: green;
+}
+
+.brand {
+ font-size: 12px;
+}
+
+.product-name {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.actual-price {
+    font-size: 12px;
+    color: red;
+    font-weight: bolder;
+}
+
+.former-price {
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
+
+/* immagini ----------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------------- */
